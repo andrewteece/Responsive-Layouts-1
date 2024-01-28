@@ -1,0 +1,25 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+/* CSS CUSTOM PROPERTIES */
+
+:root {
+  --ff-primary: 'Roboto', sans-serif;
+
+  --fs-base: 1.3125rem; 
+  --fs-h2: 2.25rem;
+  --fs-h1: 3rem;
+
+  --fw-normal: 400:
+  --fw-bold: 900;
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-600: hsl(0, 0%, 23%);
+   
+  --clr-primary-400: hsl(184, 71%, 26%);
+  --clr-primary-500: hsl(192, 36%, 21%);
+  
+  --clr-accent-300: hsl(184, 68%, 54%);
+  --clr-accent-400: hsl(280, 22%, 49%);
+}
