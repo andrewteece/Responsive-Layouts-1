@@ -98,6 +98,11 @@ h2 {
   color: var(--clr-neutral-100);
 }
 
+.hero--img {
+  align-self: flex-start;
+  border-radius: 1rem;
+}
+
 .hero--text {
   width: 60%;
 }
