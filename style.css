@@ -31,3 +31,67 @@
 ::after {
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* BODY */
+
+body {
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-base);
+}
+
+/* UTILITY */
+
+.wrapper {
+  width: 80%;
+  max-width: 68.75rem;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+}
+
+/* HERO */
+
+.hero {
+  padding: 6.25rem 0;
+  background-color: var(--clr-primary-500);
+  color: var(--clr-neutral-100);
+}
+
+.hero--text {
+  width: 60%;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+/* COMPONENTS */
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--clr-neutral-600);
+  background-color: var(--clr-accent-300);
+  font-weight: var(--fw-bold);
+  padding: 0.75em 2em;
+  border-radius: 100px;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--clr-neutral-100);
+  outline: 2px solid var(--clr-accent-300);
+  transition: all 400ms ease-in-out;
+}
