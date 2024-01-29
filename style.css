@@ -44,6 +44,14 @@ body {
   font-size: var(--fs-base);
 }
 
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
 /* UTILITY */
 
 .wrapper {
@@ -54,10 +62,33 @@ body {
 
 .row {
   display: flex;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
 .col {
   width: 100%;
+}
+
+.col + .col {
+  margin-left: 1.875rem;
+}
+
+.bg--accent {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+}
+
+.text--accent {
+  color: var(--clr-accent-400);
+}
+
+.text--align {
+  text-align: center;
+}
+
+.p--spacer {
+  padding: 3em 0;
 }
 
 /* HERO */
